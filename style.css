@@ -41,7 +41,7 @@
 /* --- SECTION 01 --- */
 
 .c-cont-intro-produtos{
-    background-image: url("/bg-section01.png");
+    background-image: url("bg-section01.png");
     background-size: cover;
     height: 68.750vw;
 }

@@ -1,0 +1,503 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* --- HEADER --- */
+
+.header{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 66.667vw;
+    margin-top: 1.563vw;
+}
+
+.l-header{
+    display: flex;
+    justify-content: center;
+}
+
+.header-menu{
+    display: flex;
+    list-style: none;
+    gap: 3.125vw;
+}
+
+.header-menu a{
+    text-decoration: none;
+    font-family: 'Cousine';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.094vw;
+    line-height: 1.250vw;
+    color: #fff;
+}
+
+.header-menu a:hover{
+    font-weight: 700;
+}
+
+/* --- SECTION 01 --- */
+
+.c-cont-intro-produtos{
+    background-image: url("/bg-section01.png");
+    background-size: cover;
+    height: 68.750vw;
+}
+.c-produtos{
+    display: flex;
+    justify-content: center;
+    padding: 3.125vw 0;
+}
+.c-produtos img{
+    width: 35.703vw;
+    height: 34.609vw;
+}
+.c-cont-produtos-texto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.c-texto-intro{
+    text-align: center;
+}
+.c-texto-intro h1{
+    font-family: 'Permanent Marker';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.750vw;
+    line-height: 5.469vw;
+    color: #fff;
+}
+.c-texto-intro h2{
+    font-family: 'Permanent Marker';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.500vw;
+    line-height: auto;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 1.563vw;
+}
+.c-texto-intro p{
+    font-family: 'Sulphur Point';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.250vw;
+    line-height: 1.250vw;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 3.125vw;
+}
+.c-button-sabores a{
+    background: #5DAFBD;
+    padding: 1.563vw 3.750vw;
+    border-radius: 3.906vw;
+    font-family: 'Sulphur Point';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.250vw;
+    line-height: 1.250vw;
+    text-decoration: none;
+    color: #fff;
+}
+
+.c-button-sabores{
+    text-align: center;
+}
+.c-button-sabores a:hover{
+    background: #396c75;
+    transition: .4s;
+}
+
+/* --- SECTION 02 --- */
+
+.l-section02{
+    background: #C17A65;
+    padding-top: 6.250vw;
+}
+
+.c-planta{
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+}
+
+.c-planta img{
+    flex-basis: auto;
+}
+
+.c-cont-texto{
+    display: flex;
+    flex-direction: column;
+    gap: 1.875vw;
+    /* background-color: green; */
+}
+
+.c-texto h1{
+    margin-right: auto;
+    font-family: 'Permanent Marker';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.750vw;
+    line-height: 5.469vw;
+    color: #fff;
+}
+
+.c-texto h2{
+    margin-right: auto;
+    font-family: 'Permanent Marker';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.500vw;
+    line-height: 2.344vw;
+    color: #fff;
+    padding-bottom: 1.563vw;
+}
+
+.c-imagem-torta{
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.50vw;
+}
+
+.c-cont-section02{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.c-icones span{
+    font-family: 'Sulphur Point';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.250vw;
+    line-height: 1.250vw;
+    color: #fff;
+}
+
+.c-grid{
+    display: flex;
+    gap: 3.125vw;
+}
+
+.c-icones{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 0.625vw;
+    margin-bottom: 2.188vw;
+}
+
+.c-texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 0.625vw;
+}
+
+/* ---SECTION03---- */
+
+.l-section03{
+    padding: 6.250vw 0; 
+}
+
+.c-head-section03{
+    font-family: 'Permanent Marker';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.125vw;
+    line-height: 4.531vw;
+    text-align: center;
+    color: #4F4F4F;
+    margin-bottom: 3.125vw;
+}
+
+.c-post{
+    background: #C17A65;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1.563vw;
+    padding: 0.781vw 3.125vw;
+    gap: 1.250vw;
+}
+.c-post h2{
+    font-family: 'Permanent Marker';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.250vw;
+    line-height: auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.c-post p{
+    font-family: 'Sulphur Point';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.250vw;
+    line-height: 1.250vw;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.c-posts-section03{
+    display: flex;
+    gap: 1.563vw;
+    padding: 0 3.125vw;
+    justify-content: center;
+}
+
+#post-morango{
+    background: #FADDB9;
+}
+#post-morango h2{
+    color:#304F4C;
+}
+#post-morango p{
+    color: #304F4C;
+}
+
+#post-cafe{
+    background: #F5BE6B;
+}
+#post-cafe h2{
+    color:#304F4C;
+}
+#post-cafe p{
+    color:#304F4C;
+}
+
+#post-amendoim{
+    background: #DDC388;
+}
+#post-amendoim h2{
+    color:#304F4C;
+}
+#post-amendoim p{
+    color:#304F4C;
+}
+
+/* --- SECTION 04 --- */
+
+.l-section04{
+    background: #EF866D;
+    padding: 6.250vw 0px;
+}
+
+.c-header-section04{
+    font-family: 'Permanent Marker';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.344vw;
+    line-height: 4.063vw;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 4.063vw;
+}
+
+.c-posts-section04{
+    display: flex;
+    justify-content: center;
+    gap: 3.125vw;
+}
+
+.c-depoimento{
+    background: #fff;
+    padding: 1.875vw 3.125vw;
+    border-radius: 0.625vw;
+}
+
+.c-depoimento img{
+    padding-bottom: 1.250vw;
+}
+
+.c-depoimento h3{
+    font-family: 'Sulphur Point';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.563vw;
+    line-height: 1.563vw;
+    color: #252525;
+    padding-bottom: 1.250vw;
+}
+.c-depoimento p{
+    font-family: 'Sulphur Point';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.938vw;
+    line-height: 0.938vw;
+    display: flex;
+    align-items: center;
+}
+
+/* ---SECTION 05 --- */
+
+.l-section05{
+    padding: 3.125vw 0;
+}
+
+.c-header-section05{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.563vw;
+}
+
+.c-header-section05 h1{
+    font-family: 'Permanent Marker';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.125vw;
+    line-height: 3.516vw;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #4F4F4F;
+}
+
+.c-header-section05 p{
+    font-family: 'Sulphur Point';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.563vw;
+    line-height: 1.563vw;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #4F4F4F;
+}
+
+/* ---SECTION06--- */
+
+.l-section06{
+    padding: 6.250vw 0;
+}
+
+.c-post-section06{
+    font-family: 'Sulphur Point';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.094vw;
+    line-height: 1.094vw;
+    text-align: center;
+}
+
+.c-post-section06 img{
+    margin-bottom: 1.563vw;
+}
+
+.c-cont-section06{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* ---SECTION07---- */
+
+.l-section07{
+    background: #FADDB9;
+}
+
+.c-cont-section07{
+    display: flex;
+    flex-direction: column;
+    padding: 3.125vw 23.438vw;
+}
+
+.c-header-section07{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Sulphur Point';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.50vw;
+    color: #304F4C;
+    gap: 0.625vw;
+    margin-bottom: 1.563vw;
+}
+
+.c-header-section07 a{
+    text-decoration: none;
+    color: #304F4C;
+}
+
+.insta01{
+    display: flex;
+    flex-direction: column;
+    gap: 0.625vw;
+}
+
+.insta02{
+    padding: 0 0.625vw;
+}
+
+.insta03{
+    display: flex;
+    flex-direction: column;
+    gap: 0.625vw;
+}
+.c-section07-grid{
+    display: flex;
+    justify-content: center;
+}
+
+/* ---FOOTER---- */
+
+.c-footer{
+    background: #996517;
+    display: flex;
+    padding: 3.125vw 13.438vw;
+    justify-content: space-between;
+}
+.c-footer a{
+    text-decoration: none;
+    font-family: 'Sulphur Point';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.250vw;
+    line-height: 1.250vw;
+    color: #FFF;
+}
+
+.c-footer a:hover{
+    font-weight: 700;
+}
+
+.c-footer-nav{
+    list-style: none;
+}
+
+.c-footer-contatos{
+    list-style: none;
+}
+
+.c-footer-nav li{
+    padding-bottom: 1.563vw;
+}
+.c-footer-contatos li{
+    padding-bottom: 1.563vw;
+}
+.c-footer-socialmedia a{
+    padding-right: 1.563vw;
+}
+
+.c-footer-socialmedia p{
+    font-family: 'Sulphur Point';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.250vw;
+    line-height: 1.563vw;
+    color: #fff;
+    padding-bottom: 1.250vw;
+}
